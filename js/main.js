@@ -7,7 +7,8 @@ const pages = {
     `,
     items: `
         <h2>Items</h2>
-        <p>Items list...</p>
+        <p>Items list...</p> 
+        <p>Items list...</p> 
     `
 };
 
