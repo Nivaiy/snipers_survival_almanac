@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sniper's Survival — Almanac</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <script src="main.js"></script>
+    <div class="fade-overlay"></div>
+    <header class="hero">
+        <img id="bgimg1" src="../../assets/bg/head_background.png" alt="bg" draggable="false">
+        <img class="top_right" id="bgimg3" src="../../assets/bg/logo.png" alt="bg" draggable="false">
+        <h1 class="top_right" id="text1">Game features and mechanics</h1>
+        <a class="top_right" id="t01" href="../../index.html" class="overlay-text">Home</a>
+    </header>
+
+    <main class="content">
+        <div class="paper">
+            <img src="assets/long_paper.png" alt="paper" draggable="false">
+
+            <div id="pc1" class="paper-content">
+                <h1>Game features and mechanics.</h1>
+                <p>Here is a brief overview of the core game mechanics.</p>
+                <div class="media-block" id="mb1">
+                    <video autoplay loop muted playsinline class="media">
+                        <source src="assets/crafting.mp4" type="video/mp4">
+                    </video>
+                    <a id="mbgt1" class="overlay-text" href="javascript:void(0)" onclick="slowScroll('#tpg1')">Crafting.</a>
+                </div>
+                <div class="media-block" id="mb2">
+                    <video id="mbg1" autoplay loop muted playsinline class="media">
+                        <source src="assets/research_tech.mp4" type="video/mp4">
+                    </video>
+                    <a id="mbgt2" class="overlay-text" href="javascript:void(0)" onclick="slowScroll('main')">Technology research.</a>
+                </div>
+                <h2 id="tpg1">Crafting.</h2>
+                <p>Crafting is the beginning of progress in the game; without it, you cannot obtain useful resources for survival. All you need are a maximum of 2 different items and their required quantities. First, you need to select an item (by clicking on it in your hand) and press the button labeled 'craft,' then choose an additional item in the other hand. After that, press the button again, and if you have combined the items correctly, the crafted item will appear in the hand you previously selected.</p>
+                <p>Also, in the game, you can craft not only in your hands but also on workbenches, in kettles, and in the furnace.</p>
+                <div class="media-block">
+                    <img src="assets/craftboard8х8.png" alt="" id="ttm1" class="overlay-img">
+                    <img src="assets/kettle8х8.png" alt="" id="ttm2" class="overlay-img">
+                    <img src="assets/furnace.png" alt="" id="ttm3" class="overlay-img">
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
