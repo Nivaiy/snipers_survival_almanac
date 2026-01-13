@@ -69,7 +69,7 @@ html, body {
 
 .paper-content {
     position: absolute;
-    top: 5%;
+    top: 2%;
     left: 10%;
     right: 8%;
     bottom: 8%;
@@ -84,7 +84,7 @@ html, body {
     white-space: normal;
     overflow-wrap: break-word;
     line-height: 1.3;
-    margin: 12px 0;
+    margin: 0px 0;
 }
 .cut {
     max-width: 60%;
@@ -111,6 +111,7 @@ html, body {
     position: relative;      /* ЯКІР */
     width: 100%;
     max-width: 600px;
+    margin: 20px 0;
 }
 
 .media-block .base-img {
@@ -163,54 +164,11 @@ html, body {
     left: 250px;
 }
 
-#mbg1 {
-    width: 300px ;
-    height: auto ;
+#table1 {
+    border-collapse: collapse;
+    width: 98%;
 }
-
-#mbgt1 {
-    left: 300px;
-    top : 10px;
-}
-
-#mbg2 {
-    width: 300px ;
-    height: auto ;
-}
-
-#mbgt2 {
-    left: 300px;
-    top : 10px;
-}
-
-#mbg3 {
-    width: 300px ;
-    height: auto ;
-}
-
-#mb1 {
-    top: -25px;
-}
-#mb2 {
-    top: 0px;
-}
-
-#pc1 {
-    top : 45px;
-}
-
-#ttm1 {
-    width: 32px;
-}
-#ttm2 {
-    left: 48px;
-    width: 32px;
-}
-#ttm3 {
-    left: 88px;
-    width: 32px;
-}
-
-#tpg2 {
-    padding-top: 50px;
+#table1 th, #table1 td {
+    border: 2px solid black;
+    padding: 8px 12px;
 }
