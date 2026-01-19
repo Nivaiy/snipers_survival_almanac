@@ -69,7 +69,7 @@ html, body {
 
 .paper-content {
     position: absolute;
-    top: 2%;
+    top: 1%;
     left: 10%;
     right: 8%;
     bottom: 8%;
@@ -171,4 +171,15 @@ html, body {
 #table1 th, #table1 td {
     border: 2px solid black;
     padding: 8px 12px;
+}
+
+#tim001 {
+    width: 25%;
+    display: inline-block; 
+    text-align: center;       /* горизонтальне центрування */
+    vertical-align: middle;   /* вертикальне центрування */
+}
+.td-center {
+    padding: 0;
+    text-align: center;
 }
