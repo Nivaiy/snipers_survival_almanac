@@ -25,13 +25,13 @@ const search_pages = {
     "items" : {
         "link" : "pages/items/index.html" ,
     } ,
-    "game_mechanics" : {
+    "game mechanics" : {
         "link" : "pages/game_mechanics/index.html" ,
     } ,
     "technologies" : {
         "link" : "pages/technologies/index.html" ,
     } ,
-    "how_to_survive" : {
+    "how to survive" : {
         "link" : "pages/page_how_to_survive/index.html" ,
     } ,
 }
@@ -107,20 +107,18 @@ function documentLoop() {
                 list_search[opa] = znay_list[opa].name
             }
         }
-
-
-        for (let i = 0 ; i < posil_list.length ; i ++ ) {
-            if (posil_list[i] != undefined) {
-                let txt = list_search[i] ;
-                let href = "#" ; 
-                if (txt == undefined) {
-                    txt = "" ;
-                }else{
-                    href = search_pages[list_search[i]].link ;
-                }
-                posil_list[i].textContent = txt ;
-                posil_list[i].href = href ;
+    }
+    for (let i = 0 ; i < posil_list.length ; i ++ ) {
+        if (posil_list[i] != undefined) {
+            let txt = list_search[i] ;
+            let href = "#" ; 
+            if (txt == undefined) {
+                txt = "" ;
+            }else{
+                href = search_pages[list_search[i]].link ;
             }
+            posil_list[i].textContent = txt ;
+            posil_list[i].href = href ;
         }
     }
     if (input_enter) {
