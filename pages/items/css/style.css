@@ -172,6 +172,10 @@ html, body {
     border: 2px solid black;
     padding: 8px 12px;
 }
+#table1 td .small_img {
+    width: 50% ;
+    height: auto ;
+}
 
 #tim001 {
     width: 25%;
@@ -182,4 +186,17 @@ html, body {
 .td-center {
     padding: 0;
     text-align: center;
+}
+#td_img_center {
+    border: 2px solid black;
+    padding: 8px 12px;
+
+    text-align: center;      /* центр по горизонталі */
+    vertical-align: middle;  /* центр по вертикалі */
+}
+#tttya1 {
+    width: 25%;
+    display: inline-block;   /* важливо для vertical-align */
+    max-width: 100%;         /* щоб не виходила за межі клітинки */
+    height: auto;
 }

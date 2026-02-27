@@ -34,6 +34,9 @@ const search_pages = {
     "how to survive" : {
         "link" : "pages/page_how_to_survive/index.html" ,
     } ,
+    "mobs" : {
+        "link" : "pages/mobs/index.html" ,
+    } ,
 }
 
 const input_menu = document.getElementById("input_menu");

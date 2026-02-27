@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sniper's Survival — Almanac</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script src="main.js"></script>
+    <div class="fade-overlay"></div>
+    <header class="hero">
+        <img id="bgimg1" src="../../assets/bg/head_background.png" alt="bg" draggable="false">
+        <img class="top_right" id="bgimg3" src="../../assets/bg/logo.png" alt="bg" draggable="false">
+        <h1 class="top_right" id="text1">What do I do next?</h1>
+        <a class="top_right" id="t01" href="../../index.html" >Home</a>
+    </header>
+
+    <main class="content">
+        <div class="paper">
+            <img src="assets/long_paper.png" alt="paper" draggable="false">
+
+            <div class="paper-content">
+                <h1>What do I do next?</h1>
+
+                <p>content</p>
+                <ol id="ol1">
+                    <li><a href="javascript:void(0)" onclick="slowScroll('#h3_1')">Forest meadow</a></li>
+                    <li><a href="javascript:void(0)" onclick="slowScroll('#h3_2')">Forest thickets</a></li>
+                    <li><a href="javascript:void(0)" onclick="slowScroll('#h3_3')">Cotton Glade</a></li>
+                    <li><a href="javascript:void(0)" onclick="slowScroll('#h3_4')">Poisoned forest</a></li>
+                </ol>
+
+                <h3 id="h3_1">Forest meadow</h3>
+                <p >After surviving the night in the first location, it’s worth thinking about what to do next. You don’t have many options — everything you can do in the first location is basically preparation for surviving in the next ones. You can research the ‘Craft Board’ technology to build a workbench and prepare food, such as rabbit meat. Rabbit meat is very useful for crafting canned food, because if you cook 1 piece of rabbit meat together with 2 used cans in a pot, you will get 2 canned food items.</p>
+                <p>Now about traveling to other locations. To open the location menu, you need to walk to the edge of the area you are currently in. Once you enter the menu, you will see a map with markers on it.</p>
+                <div class="media-block" id="mb2">
+                    <video id="mbg2" autoplay loop muted playsinline class="media">
+                        <source src="assets/how_to_activate_the_map_menu.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <p>To move between locations, you must first make sure you have completed all the objectives in the location you are currently in. Then click on the bouncing location marker. If you have met all the requirements, the ‘Go!’ button under the location description will light up white. Once it does, you can press it, and within a few seconds you will arrive at the location you selected.</p>
+            
+                <h3 id="h3_2">Forest thickets</h3>
+                <p>This is the most important stage of progression in the game, because this location contains a very useful resource — clay. You can craft a raw brick from two pieces of clay, and then place the raw brick on a campfire to bake it. But first, you need to research the ‘Uncle Hotbrick’ technology to unlock all the subsequent crafts.</p>
+                <div class="media-block" id="mb3">
+                    <video id="mbg2" autoplay loop muted playsinline class="media">
+                        <source src="assets/raw_bricks.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <p>Once you have accumulated around 24 bricks, it’s time to make building mortar. To craft it, you need 1 slaked lime and 2 ash in your inventory. Ash drops from burned-out campfires, and to obtain slaked lime, you need to:</p>
+                <p>First, you need to place a limestone block on a campfire and wait until it turns into quicklime.</p>
+                <div class="media-block mb_row">
+                    <img src="assets/craft_quicklime_1.png" alt="" class="si1" draggable="false"> +
+                    <img src="assets/time.png" alt="" class="si1" draggable="false"> =
+                    <img src="assets/craft_quicklime_2.png" alt="" class="si1" draggable="false">
+                </div>
+                <p>Second, you need to place a trough above the quicklime block, which will contain water. The water in the trough accumulates in the morning. You can also collect water in a jar, and if you place a jar of water above the trough, the trough will draw water from the jar.</p>
+                <div class="media-block mb_row">
+                    <img src="assets/craft_slaked_lime.png" alt="" class="si1" draggable="false">
+                </div>
+                <p>Next, after you have made the baked brick and building mortar, you will be able to craft a brick block, which will be useful for building a furnace.</p>
+                <div class="media-block" id="mb4">
+                    <video autoplay loop muted playsinline class="media">
+                        <source src="assets/how_to_make_a_brick_block.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <p>And now the most important part: creating the furnace. In this game, a furnace is a multi-block structure that requires 9 brick blocks and 1 main furnace block. When the structure is built correctly — that is, 8 brick blocks around the furnace block and 1 brick block on top of the furnace’s shell — the furnace becomes active, allowing you to smelt various items.</p>
+                <div class="media-block" id="mb4">
+                    <video autoplay loop muted playsinline class="media">
+                        <source src="assets/how_to_make_furnace.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <h3 id="h3_3">Cotton Glade</h3>
+                <p>Now that you have moved to the third location, it’s time to take advantage of the opportunity to craft more backpacks. To make them, you will need aluminum, a needle, and fabric — and here you will learn how to obtain all of these materials.</p>
+                <p>First, metal. It can be obtained from small scrap piles in the third location and then smelted into a more usable form in the furnace you previously built. For example, if you place 4 used cans into the furnace and smelt them, you will get 1 aluminum ingot. And if you put 8 pieces of scrap metal into the furnace, you will get 1 steel plate.</p>
+                <div class="media-block mb_row">
+                    <img src="assets/scrap_with_polluted_soil.png" alt="" class="si2" draggable="false">
+                    <video autoplay loop muted playsinline class="media">
+                        <source src="assets/how_to_smelt_metal.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <p>Next, you need to research the ‘Mother’s Weaver’ technology to unlock the crafting of the loom and the backpack. After that, besides creating a loom assembly kit, you will also need to craft a wrench to assemble the loom, as shown in the video:</p>
+                <div class="media-block mb_row" id="mbr1">
+                    <video autoplay loop muted playsinline class="media">
+                        <source src="assets/how_to_place_the_loom.mp4" type="video/mp4">
+                    </video>
+                    <p id="mbrt1">Press Ctrl + left mouse button to assemble it.</p>
+                </div>
+                <p>After that, you need to place 6 cotton into the slot in the wheel and start turning the wheel.</p>
+                <div class="media-block mb_row" id="mbr1">
+                    <video autoplay loop muted playsinline class="media">
+                        <source src="assets/how_to_use_the_loom.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <p>And once you craft 4 pieces of cloth, 1 needle, and 2 aluminum ingots, you will be able to make your second backpack and carry more items to the next locations.</p>
+                <p>Additionally, you can craft a pot after researching the ‘MasterChef’ technology to cook Tier 2 food, such as canned food. This ability to prepare more supplies will be very useful for the next levels — for example, in the ‘Poisoned Forest’ location, where there is no food at all.</p>
+
+                <h3 id="h3_4">Poisoned forest</h3>
+                <p>At this level, you can now research the ‘Armorer’ technology, which allows you to craft ammunition for the sniper rifle. To create a sniper rifle magazine, you will need the main resource — gunpowder. To craft gunpowder, you must gather sulfur, saltpeter (which appears on rotten trees), and ash. After that, by combining gunpowder with a steel plate, you will obtain a magazine that will be essential in combat against enemies — for example, the Hunter Boss who appears on the second day in this location.</p>
+
+            </div>
+        </div>
+    </main>
+</body>
+</html>

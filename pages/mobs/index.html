@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sniper's Survival — Almanac</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="fade-overlay"></div>
+    <header class="hero">
+        <img id="bgimg1" src="../../assets/bg/head_background.png" alt="bg" draggable="false">
+        <img class="top_right" id="bgimg3" src="../../assets/bg/logo.png" alt="bg" draggable="false">
+        <h1 class="top_right" id="text1">Mobs</h1>
+        <a class="top_right" id="t01" href="../../index.html" class="overlay-text">Home</a>
+    </header>
+
+    <main class="content">
+        <div class="paper">
+            <img src="../../assets/bg/paper.png" alt="paper" draggable="false">
+
+            <div class="paper-content">
+                <h1>Mobs.</h1>
+                <p>Here you will learn all the information about mobs.</p>
+
+                <table id="table1">
+                    <thead>
+                        <tr>
+                            <td>name</td>
+                            <td>image</td>
+                            <td>description</td>
+                            <td>where and when does it appear?</td>
+                            <td>what does it drop upon death?</td>
+                            <td>id</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Bunny</td>
+                            <td><img src="assets/bunny.png" alt="bunny"></td>
+                            <td>A neutral mob that likes to eat raspberries and is afraid of many aggressive mobs.</td>
+                            <td>Spawns in plains and where there are raspberries.</td>
+                            <td>
+                                <img class="item_img" src="assets/bunny_body.png" alt="body">x1 ,
+                                <img class="item_img" src="assets/bunny_fur.png" alt="body">x1-4
+                            </td>
+                            <td>Obj_bunny</td>
+                        </tr>
+                        <tr>
+                            <td>Wolf</td>
+                            <td><img src="assets/wolf.png" alt="wolf"></td>
+                            <td>An aggressive mob whose goal is to hunt someone at night.</td>
+                            <td>Comes out of its lair at night to hunt, and returns during the day.</td>
+                            <td>
+                                <img class="item_img" src="assets/dylya.png" alt="dylya">
+                            </td>
+                            <td>Obj_wolf</td>
+                        </tr>
+                        <tr>
+                            <td>Hunter</td>
+                            <td><img src="assets/hunter.png" alt="hunter"></td>
+                            <td>An aggressive mob whose goal is to hunt someone at night.</td>
+                            <td>Appears on level 4 in the morning on day 2.</td>
+                            <td>
+                                <img class="item_img" src="assets/dylya.png" alt="dylya">
+                            </td>
+                            <td>Obj_hunter_boss or Obj_hunter_neutral</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
